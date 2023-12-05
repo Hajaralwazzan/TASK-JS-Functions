@@ -30,24 +30,17 @@ printAge(1989);
  * -- fr: it should print `Bonjour NAME`
  * -- tr: it should print `Merhaba NAME`
  */
-let name1 ="Hajar"
-let language = "en"
+let name1 = "Hajar";
+let language = "en";
 
-function printHello (n1,Ian)
-    if (lan == "en") {
-        console.log(`Hello ${n1}`);
-    else if (lan == "es") 
-    {
-        else if (lan == "fr") {   
-            console.log (`Bonjour ${n1}`);
-            else if (lan =="tr")
-            console.log(`Merhaba ${n1}`)
-        }
-    }
+function printHello(n1, Ian) {
+  if (lan == "en") {
+    console.log(`Hello ${n1}`);
+  } else if (lan == "es") {
+  } else if (lan == "fr") {
+    console.log(`Bonjour ${n1}`);
+  } else if (lan == "tr") console.log(`Merhaba ${n1}`);
 }
-
-
-
 
 /**
  * Task 4:
@@ -57,7 +50,10 @@ function printHello (n1,Ian)
  */
 let unomas = 100;
 let dosmas = 500;
-function printMax(uno ,dos) {
+function printMax(uno, dos) {
   if (uno > dos) {
-    return uno ;} else { return dos}
-  } 
+    return uno;
+  } else {
+    return dos;
+  }
+}
